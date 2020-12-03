@@ -1,6 +1,7 @@
 package HomeWork;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +9,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class HW13 {
 
@@ -94,11 +98,8 @@ public class HW13 {
         Assert.assertTrue(isDisplayed,"Error message is not displayed");
 
 
-
-
-
-
-
     }
+
+
 
 }

@@ -113,7 +113,7 @@ public class HW12 {
            } catch (ParseException e) {
                e.printStackTrace();
            }
-       
+
 
        WebElement secondDate = driver.findElement(By.xpath("//time[text()='July 1, 2020']"));
        String secondDateSt = secondDate.getText();
